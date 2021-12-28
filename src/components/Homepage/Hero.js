@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../../assets/netflix-logo.png'
+import Header from '../Header'
 
 const Hero = () => {
 
@@ -14,10 +14,7 @@ const Hero = () => {
 
     return (
         <div className='container hero' style={{height: "110vh", borderBottom:"8px solid #222222"}}>
-            <header className="hero-header">
-                <img src={logo} alt="Netflix-logo" />
-                <button>Sign In</button>
-            </header>
+            <Header />
             <div className="hero-body">
                 <h1>Unlimited movies, TV shows, and more.</h1>
                 <h4>Watch anywhere. Cancel anytime.</h4>

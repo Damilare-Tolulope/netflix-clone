@@ -1,0 +1,72 @@
+
+.sign-in{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../../assets/hero-bg.jpg');
+}
+.signin-f{
+    width:100%;
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0.65);
+}
+.footer-links{
+    padding: 10px 10%;
+}
+form{
+    width:400px;
+    background-color: rgba(0,0,0,0.65);
+    padding:20px 40px 50px;
+    margin:auto;
+    margin-bottom:150px;
+}
+
+.sign{
+    font: 700 32px Arial, Helvetica, sans-serif;
+    color:white
+}
+
+#input{
+    padding:20px;
+    border-radius: 8px;
+    border:none;
+    outline: none;
+    display: block;
+    width:90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#input::placeholder{
+    font-size: 16px;
+}
+.submit-btn{
+    cursor: pointer;
+    display:block;
+    width:100%;
+    padding: 20px;
+    color:white;
+    background-color: #E50914;
+    font-size: 16px;
+    font-weight: 700;
+    margin:auto;
+    margin-bottom: 20px;
+    border:none;
+    outline:none;
+    border-radius: 8px;
+}
+
+.remember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:13px;
+    background-color:transparent;
+}
+
+.sign-up p{
+    font-size:13px;
+    color:#8C8C8C;
+}
+.sign-up p a{
+    text-decoration: none;
+}
+.sign-up p:nth-child(2) a:hover{
+    text-decoration: underline;
+}

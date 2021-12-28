@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color:#181818
+}
+
+.tv-style{
+    padding:0 60px;
+    color:#fff
+}
+.tv-style h1{
+    font-size:44px;
+}
+.tv-style p{
+    font-size:19px;
+    width:600px
+}
+.movies{
+    cursor: pointer;
+    margin: 50px 0;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    text-align: center;
+}
+.movie{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.movie p{
+    margin: 0px;
+}
+.movie img{
+    height: 100px;
+    width:200px;
+}
+.more{
+    text-align: center;
+    width: 700px;
+    margin: 100px auto 
+}
+.more h3{
+    font-size: 36px
+}
+.more p{
+    font-size: 24px
+}
+.more button{
+  padding: 16px 20px;
+  margin-top:20px;
+  width: 200px;
+  text-decoration: uppercase;
+  font-size: 24px;
+  background-color: #F40612;
+  color: #fff;
+  border: none;
+  outline: none;
+}

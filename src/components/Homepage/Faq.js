@@ -21,7 +21,7 @@ const Faq = () => {
             <div className="faq-all">
             {
                 data.map( item => {
-                    return <Questions data={item} />
+                    return <Questions key={item.title} data={item} />
                     
                 })
             }
